@@ -3,7 +3,7 @@
 function displayTimeOfDay() 
 {
     //Get the hour and minutes from the user's device
-    const hour = 12; //new Date().getHours(); 
+    const hour =  new Date().getHours(); 
     const minutes = new Date().getMinutes();
 
     //body of the html page
